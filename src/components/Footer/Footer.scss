@@ -1,0 +1,16 @@
+.footer {
+   height: 50px;
+
+   background-color: whitesmoke;
+   text-align: center;
+
+   box-shadow: 2px 2px 10px #aaa;
+
+   &::before {
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+   }
+}
+

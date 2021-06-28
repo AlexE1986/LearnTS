@@ -1,0 +1,41 @@
+.searchBar {
+   position: relative;
+   width: 230px;
+   height: 30px;
+
+   &__input {
+      position: absolute;
+      right: 0;
+
+      width: 130px;
+      height: 30px;
+
+      padding-left: 10px;
+      transition: 0.5s width;
+   }
+
+   &__input:focus {
+      width: 230px;
+   }
+
+   &__icon {
+      position: absolute;
+      top: 6px;
+      right: 7px;
+   }
+
+   &__clear {
+      position: absolute;
+      top: 2px;
+      right: 2px;
+
+      width: 26px;
+      height: 26px;
+
+      cursor: pointer;
+      font-weight: 700;
+      border: none;
+
+      z-index: 10;
+   }
+}

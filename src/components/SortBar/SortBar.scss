@@ -1,0 +1,22 @@
+.sortBar {
+   display: grid;
+
+   grid-template-columns: 75px 75px 75px 75px;
+   justify-content: space-between;
+   align-content: center;
+
+   width: 320px;
+   height: 30px;
+
+   &__button {
+      height: 30px;
+      cursor: pointer;
+      border: none;
+      background-color: #eee;
+      transition: 0.5s;
+   }
+
+   &__button:hover {
+      background-color: #fff;
+   }
+}
