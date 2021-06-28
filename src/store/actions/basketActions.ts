@@ -1,10 +1,10 @@
 import { BasketAction, BasketActionTypes, IBasketItem } from "../../types/basket"
 import { IGood } from "../../types/goods"
 
-export function addToBasket(good: IBasketItem): BasketAction {
+export function addToBasket(item: IBasketItem): BasketAction {
    return {
       type: BasketActionTypes.ADD_TO_BASKET,
-      payload: good
+      payload: item
    }
 }
 
